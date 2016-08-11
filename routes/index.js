@@ -6,10 +6,10 @@ var resultOne = 0, resultTwo = 0, resultThree = 0;
 
 var connection = mysql.createConnection({
   //host     : 'localhost',
-  host     : 'quizapp.ccwtwgtut47e.us-east-1.rds.amazonaws.com',
+  host     : '0.0.0.0',
   port : '3306',
   user     : 'root',
-  password : '12312312',
+  password : 'root',
   database :'ecommerce',
 });
 
