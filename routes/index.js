@@ -6,7 +6,7 @@ var resultOne = 0, resultTwo = 0, resultThree = 0;
 
 var connection = mysql.createConnection({
   //host     : 'localhost',
-  host     : '0.0.0.0',
+  host     : 'vmdb',
   port : '3306',
   user     : 'root',
   password : 'root',
